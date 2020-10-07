@@ -1,0 +1,74 @@
+[
+ {
+  "en": "hello",
+  "zhHK": "你好",
+  "hint": "greeting",
+  "jyutping": "nei5 hou2 {nǐ hǎo}\r"
+ },
+ {
+  "en": "Wake up please",
+  "zhHK": "快d 起身啦 babe",
+  "hint": "fai d = a bit",
+  "jyutping": "Fai d hey sun la\r"
+ },
+ {
+  "en": "(So/very) sleepy ",
+  "zhHK": "(好)眼瞓",
+  "hint": "",
+  "jyutping": "(Ho) ngaan5 fan3 {yǎn xùn}\r"
+ },
+ {
+  "en": "Good morning ",
+  "zhHK": "早晨",
+  "hint": "",
+  "jyutping": "zou2 san4 {zǎo chén}\r"
+ },
+ {
+  "en": "\"Good afternoon (formal",
+  "zhHK": " say hi for informal)\"",
+  "hint": "午安",
+  "jyutping": ""
+ },
+ {
+  "en": "\"Good evening (formal",
+  "zhHK": " say hi for informal)\"",
+  "hint": "晚安",
+  "jyutping": ""
+ },
+ {
+  "en": "Good night (sleep early)",
+  "zhHK": "早抖",
+  "hint": "",
+  "jyutping": "Jo dau2\r"
+ },
+ {
+  "en": "How are you?",
+  "zhHK": "你好嗎？",
+  "hint": "",
+  "jyutping": "Nei5 hou2 ma?\r"
+ },
+ {
+  "en": "Good Bye (quite formal)",
+  "zhHK": "再見",
+  "hint": "",
+  "jyutping": "zoi3 gin3 {zài jiàn}\r"
+ },
+ {
+  "en": "See you next time",
+  "zhHK": "下次見",
+  "hint": "",
+  "jyutping": "haa6 ci3 gin3 {xià cì jiàn}\r"
+ },
+ {
+  "en": "Let's catch up (yum cha) sometime. [go yum cha rather than get a coffee to catch up~]",
+  "zhHK": "得閒飲茶",
+  "hint": "",
+  "jyutping": "dak1 haan4 jam2 caa4 {dé jiān yǐn chá}\r"
+ },
+ {
+  "en": "I am fine ",
+  "zhHK": "我幾好",
+  "hint": "",
+  "jyutping": "Ngo gei2 hou2"
+ }
+]

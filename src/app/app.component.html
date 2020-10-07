@@ -1,0 +1,27 @@
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+
+  <select class="btn btn-light dropdown-toggle" (change)="onChange($event.target.value)">
+    <option *ngFor="let it of themes" [value]="it.value">{{it.name}}</option>
+  </select>
+
+
+  <br>
+  <h2>{{en}}</h2>
+  <h1>{{zhHK}}</h1>
+  <br>
+  <p>Hint: {{hint}}</p>
+  <h2>{{jyutping}} <br></h2>
+  <br>
+  <button type="button" class="btn btn-info btn-lg" (click)="revealPronunciation()">Reveal jyutping </button>
+  <br>
+  <br>
+  <button type="button" class="btn btn-primary btn-lg" (click)="nextPhrase()">Next phrase</button>
+  <br>
+  <br>
+  <a target="_blank" href="https://en.wikipedia.org/wiki/Jyutping#Tones">Tones explained</a>
+</div>
+<div style="text-align:right">
+</div>
