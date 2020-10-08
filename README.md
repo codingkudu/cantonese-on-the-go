@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Deploying to github
 To prepage github page run script:
-Run 'npm run githubpage' to build and deploy in githubpage folder. 
+Run `npm run githubpage` to build and deploy in githubpage folder. 
 
 ## Generating json - run node deckGenertor.js
 take csv and replace all , with ;
