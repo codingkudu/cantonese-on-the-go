@@ -2,3 +2,32 @@
   height: 100vh;
   text-align: center;
 }
+
+h2 {
+  margin-bottom: 0rem;
+}
+
+.header {
+  height: 20vh;
+}
+
+select {
+  height: 7vh;
+}
+
+.phrase {
+  height: 20vh;
+}
+
+.hint {
+  height: 7vh;
+}
+
+button {
+  height: 10vh;
+  margin-bottom: 0.5vh;
+}
+
+.footer {
+  height: 5vh;
+}

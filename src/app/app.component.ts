@@ -21,7 +21,7 @@ import { CNY_TRANSLATIONS } from './content/translations.cny';
 
 export class AppComponent implements OnInit {
 
-  title = '🌻🐒 Cantonese Flash Cards 🐒🌻';
+  title = '🐒 Cantonese Flash Cards 🌻';
   en = '';
   zhHK = '';
   hint = '';
