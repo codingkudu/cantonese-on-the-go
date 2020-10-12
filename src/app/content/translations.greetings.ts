@@ -54,7 +54,7 @@ export const GREETING_TRANSLATIONS = [
     jyutping: 'dak1 haan4 jam2 caa4 {dé jiān yǐn chá}'
   },
   {
-    en: 'I am fine ',
+    en: 'I am fine',
     zhHK: '我幾好',
     hint: '',
     jyutping: 'Ngo gei2 hou2'
