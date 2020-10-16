@@ -1,4 +1,4 @@
-@media all and (min-width: 300px)  {  h1  { font-size:1.84em;  } h2 { font-size:1.6em;  } p { font-size:0.7em; } div { margin-left: 5px; margin-right: 5px; margin-top: 1px; margin-bottom: 1px; } }
+@media all and (min-width: 300px)  {  h1  { font-size:9vw;  } h2 { font: size 7.5vw; } p { font-size:1wv; } div { margin-left: 5px; margin-right: 5px; margin-top: 1px; margin-bottom: 1px; } }
 
 .flashcard {
   height: 100vh;
@@ -42,6 +42,4 @@ button {
 
 .item {
   flex: 1 1 0px;
-  text-align: center;
-  border: 1px solid black;
 }
