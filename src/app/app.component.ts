@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
     { name: 'Greetings', value: 1 },
     { name: 'Pronouns', value: 2 },
     { name: 'Shopping', value: 3 },
-    { name: 'Expressions', value: 4 },
+    { name: 'Common Sayings', value: 4 },
     { name: 'Eating out', value: 5 },
     { name: 'CNY', value: 6 }
   ];

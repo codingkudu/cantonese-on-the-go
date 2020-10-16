@@ -24,7 +24,7 @@ export const CNY_TRANSLATIONS = [
     jyutping: 'san1 tai2 gin6 hong1 {shēn tǐ jiàn kāng}'
   },
   {
-    en: 'Wish u all your dreams come true',
+    en: 'Wish all your dreams come true',
     zhHK: '心想事成',
     hint: '',
     jyutping: 'sam1 soeng2 si6 sing4 {xīn xiǎng shì chéng}'
