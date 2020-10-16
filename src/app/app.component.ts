@@ -42,23 +42,36 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.deck = shuffle(GREETING_TRANSLATIONS);
+    this.initDeck();
+
+  }
+
+  private initDeck() {
+    this.deckIndex = 0;
     this.en = this.deck[this.deckIndex].en;
     this.zhHK = this.deck[this.deckIndex].zhHK;
     this.hint = this.deck[this.deckIndex].hint;
     this.jyutping = '';
-
   }
 
   revealPronunciation() {
     this.jyutping = this.deck[this.deckIndex].jyutping;
   }
 
-  nextPhrase() {
-    this.deckIndex = (this.deckIndex + 1) % this.deck.length;
-    this.en = this.deck[this.deckIndex].en;
-    this.zhHK = this.deck[this.deckIndex].zhHK;
-    this.hint = this.deck[this.deckIndex].hint;
-    this.jyutping = '';
+  nextPhrase(goForward: boolean) {
+    let i = 0;
+    if (!this.isStartOfDeck(goForward)) {
+      goForward ? i = 1 : i = -1;
+      this.deckIndex = (this.deckIndex + i) % this.deck.length;
+      this.en = this.deck[this.deckIndex].en;
+      this.zhHK = this.deck[this.deckIndex].zhHK;
+      this.hint = this.deck[this.deckIndex].hint;
+      this.jyutping = '';
+    }
+  }
+
+  isStartOfDeck(goForward: boolean): boolean {
+    return (this.deckIndex === 0 && goForward === false);
   }
 
   onChange(optionValue: string) {
@@ -78,8 +91,7 @@ export class AppComponent implements OnInit {
       this.deck = shuffle(CNY_TRANSLATIONS);
     }
 
-    this.deckIndex = 0;
-    this.nextPhrase();
+    this.initDeck();
   }
 
 }
