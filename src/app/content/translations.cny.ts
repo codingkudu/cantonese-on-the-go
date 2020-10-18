@@ -12,9 +12,9 @@ export const CNY_TRANSLATIONS = [
     jyutping: 'lei6 si6 dau2 loi4 {lì shì dòu lái}'
   },
   {
-    en: 'As energetic as dragon & horses',
+    en: 'Idiom: old but still full of vitality',
     zhHK: '龍馬精神',
-    hint: 'old but still full of vitality (idiom)',
+    hint: 'As energetic as dragon & horses',
     jyutping: 'lung4 maa5 zing1 san4 {lóng mǎ jīng shén}'
   },
   {
