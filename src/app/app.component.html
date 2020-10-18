@@ -27,14 +27,19 @@
     <h2>{{jyutping}} </h2>
   </div>
 
-  <div>
-    <button type="button" class="btn btn-info btn-lg" (click)="revealPronunciation()">Reveal jyutping </button>
+  <div class="flexcontainer">
+    <button type="button" class="btn btn-info btn-lg flexitem" (click)="revealPronunciation()">Reveal pronunciation
+      (jyutping)
+    </button>
   </div>
 
-  <div class="navbuttons">
-    <button type="button" class="btn btn-primary btn-lg item" (click)="nextPhrase(false)">Back</button>
-    <button type="button" class="btn btn-primary btn-lg item" (click)="nextPhrase(true)">Next</button>
+  <div class="flexcontainer">
+    <button type="button" class="btn btn-primary btn-lg flexitem" (click)="nextPhrase(false)">Back</button>
+    <button type="button" class="btn btn-primary btn-lg flexitem" (click)="nextPhrase(true)">Next</button>
   </div>
 
-  <a class="footer" target="_blank" href="https://en.wikipedia.org/wiki/Jyutping#Tones">Tones explained</a>
+  <div class="footer flexcontainer">
+    <a class="flexitem" target="_blank" href="https://en.wikipedia.org/wiki/Jyutping#Tones">Tones explained</a>
+    <a class="flexitem" target="_blank" [href]="'http://cantonese.org/search.php?q=' + zhHK">Lookup reference</a>
+  </div>
 </div>

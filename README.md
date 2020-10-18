@@ -45,3 +45,6 @@ and replace heading and " with '
 
 Cantonese dictionary
 http://cantonese.org/search.php?q=hello
+
+If anyone has a better suggestion that using this I would love to hear it :D
+div {border: solid 1px; border-color: red;}

@@ -45,11 +45,11 @@ button {
   height: 5vh;
 }
 
-.navbuttons {
+.flexcontainer {
   display: flex;
   justify-content: space-evenly
 }
 
-.item {
+.flexitem {
   flex: 1 1 0px;
 }
