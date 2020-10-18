@@ -20,7 +20,7 @@ export const CNY_TRANSLATIONS = [
   {
     en: 'Good health',
     zhHK: '身體健康',
-    hint: 'usually used in greetings such as during Chinese new year or birthdays',
+    hint: 'greetings at CNY or birthdays',
     jyutping: 'san1 tai2 gin6 hong1 {shēn tǐ jiàn kāng}'
   },
   {

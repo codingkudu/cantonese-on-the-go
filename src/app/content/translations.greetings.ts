@@ -50,7 +50,7 @@ export const GREETING_TRANSLATIONS = [
   {
     en: 'Let\'s catch up (yum cha) sometime',
     zhHK: '得閒飲茶',
-    hint: 'go yum cha rather than coffee catch up',
+    hint: 'instead of coffee catch up',
     jyutping: 'dak1 haan4 jam2 caa4 {dé jiān yǐn chá}'
   },
   {
