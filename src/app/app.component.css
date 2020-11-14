@@ -53,3 +53,17 @@ button {
 .flexitem {
   flex: 1 1 0px;
 }
+
+.btn-reveal {
+  background-color: #024999;
+  color: white;
+}
+
+.btn-nav {
+  background-color: #cd0521;
+  color: white;
+}
+
+.title {
+  color:  #024999;
+}

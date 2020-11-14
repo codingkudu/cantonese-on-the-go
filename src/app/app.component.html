@@ -1,6 +1,6 @@
 <div class="flashcard">
   <div class="header">
-    <h1>
+    <h1 class=title>
       {{ title }}
     </h1>
     <h1>
@@ -28,14 +28,15 @@
   </div>
 
   <div class="flexcontainer">
-    <button type="button" class="btn btn-info btn-lg flexitem" (click)="revealPronunciation()">Reveal pronunciation
+    <button type="button" class="btn btn-reveal btn-lg flexitem" (click)="revealPronunciation()">Reveal
+      pronunciation
       (jyutping)
     </button>
   </div>
 
   <div class="flexcontainer">
-    <button type="button" class="btn btn-primary btn-lg flexitem" (click)="nextPhrase(false)">Back</button>
-    <button type="button" class="btn btn-primary btn-lg flexitem" (click)="nextPhrase(true)">Next</button>
+    <button type="button" class="btn btn-nav btn-lg flexitem" (click)="nextPhrase(false)">Back</button>
+    <button type="button" class="btn btn-nav btn-lg flexitem" (click)="nextPhrase(true)">Next</button>
   </div>
 
   <div class="footer flexcontainer">
