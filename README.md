@@ -4,7 +4,7 @@ This is a little tool I made to help me learning Cantonese (as well as working o
 
 After starting this project I learnt that there are differences in the way Mandarin and Cantonese speakers will says things. In future improvements I might need to provide how it is said in Mandarin rather than provide a direct translation.
 
-View github page here: https://codingkudu.github.io/cantonese-on-the-go/
+View github page here: <https://codingkudu.github.io/cantonese-on-the-go/>
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
